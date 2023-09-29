@@ -4,3 +4,13 @@
 .my-bg-teal{
     background-color: var(--bs-teal);
 }
+img{
+    width: 100%;
+}
+section:first-child figure{
+    width: 200px;
+}
+.star-container div.border-top{
+    width: 100px;
+    vertical-align: middle;
+}
