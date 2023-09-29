@@ -1,4 +1,6 @@
-
+.debug{
+    border: 1px solid red;
+}
 .my-bg-teal{
     background-color: var(--bs-teal) !important;
 }
