@@ -28,3 +28,25 @@ div .form-control{
     border-bottom: 1px solid gray;
     border-radius: 0px;
 }
+.my-card{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.my-card:hover:hover::after{
+    content: "+";
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #20c9967b;
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+}
