@@ -23,3 +23,8 @@ section:first-child figure{
     width: 100px;
     vertical-align: middle;
 }
+div .form-control{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+}
